@@ -1,0 +1,130 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bi_menu {
+    background-attachment: ;
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bi1 {
+    background-image: url('bi1.png');
+    min-height:  100%;
+    opacity: 1;
+}
+.bi_login {
+    background-image: url('bi_login.jpg');
+    min-height: 100%;
+    opacity: 1;
+}
+.bi_menu {
+    background-image: url('bi_menu.jpg');
+    min-height: 100%;
+    opacity: 1;
+}
+
+/* Second image (Portfolio) */
+.bi2 {
+    background-image: url('bi2.jpg');
+    min-width: auto;
+    min-height: 75%;
+}
+
+/* Third image (Contact) */
+.bi3 {
+    background-image: url('delivery.png');
+    min-height: 400px;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bi1, .bi2, .bi3{
+        background-attachment: scroll;
+    }
+}
+.center
+{
+	display:inline-block;width:auto;
+}
+
+
+.footer
+{
+	padding: 5% 15%; 
+	background-color: black;
+	opacity: 0.5;
+    color: white;
+
+}
+.footer:hover
+{
+	opacity: 0.75;
+}
+.top
+{
+	position:fixed;width:100%;z-index:1;top: 0;min-height: 8%;
+}
+.bar
+{
+	display:inline-block;width:auto;width:100%;overflow:hidden;
+	min-height:;
+	background-color: #222211;
+	color:white;
+    font-weight: lighter;
+    background-color:;
+    opacity: 0.5;
+}
+.top
+{
+    font-size: 125%;
+}
+.col-1 .nv:hover
+{
+    border-bottom: solid;
+    border-color: white;
+    background-color:;
+    padding: 0 2px;
+    
+}
+#nv
+{
+    color: white;
+}
+body,h1,h2,h3,.top,.heading,.abt{font-family: "Chicle", sans-serif;}
+
+.menuu
+{
+    width: 100%;
+    height: 100%;
+}
+.item
+{
+    padding: 5%;    
+}
+#order_btn
+{
+    background-color: green;
+    color: white;
+    font-size: small;
+    border-radius: 5px;
+    padding: 1% 2%;
+    width: 60%;
+    height: 28px;
+}
+#order_btn:hover
+{
+    
+    opacity: 0.7;
+}
+#p_img:hover
+{
+    opacity:0.4;
+}
